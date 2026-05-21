@@ -103,11 +103,6 @@
     cursor: pointer;
     transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
-.btns:hover {
-    background: gainsboro;
-    color: black;
-    border-color: gainsboro;
-}
 .btns:active {
   transform: scale(0.95);
 }
