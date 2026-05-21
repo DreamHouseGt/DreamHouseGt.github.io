@@ -84,11 +84,6 @@
     margin-right: 10px;
     align-items: center;
 }
-.menucon:hover {
-  transform: perspective(1000px) rotateX(4deg) translateY(-8px);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 
-              0 0 40px rgba(255, 0, 85, 0.15);
-} 
 .menuelm {
     text-decoration: none;
     color: black;
