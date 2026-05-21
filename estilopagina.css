@@ -20,6 +20,7 @@
     font-size: 15px;
     height: 50px;
     border:solid  gainsboro;
+    border: 32px;
 }
 .contmarque {
     display: flex;
@@ -53,10 +54,7 @@
     width: 100%;
     max-width: 960px;
     height: 70px;
-    border-radius: 12px;
     background-color: gainsoboro;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
     z-index: 1000;
     align-items: center;
     backdrop-filter: blur(16px);
@@ -74,7 +72,6 @@
     align-items: center;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
 }
 .logo {
     font-size: 20px;
