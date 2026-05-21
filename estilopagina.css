@@ -52,16 +52,14 @@
 .menucon {
     top: 0; 
     left: 0;
-    width: 90%;
+    width: 100%;
     height: 60px;
-    background-color: aliceblue;
     align-items: center;
     backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--nav-border);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     borde-radius:20px;
-    box-sizing: border-box;
+    background-color: aliceblue;
 }
 .menu {
     width: 100%;
