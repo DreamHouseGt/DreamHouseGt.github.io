@@ -60,8 +60,6 @@
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--nav-border);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    transform: perspective(1000px);
-    transition: transform 0.5s var(--curve), box-shadow 0.5s var(--curve);
     padding: 20px;
 }
 .menu {
@@ -91,17 +89,6 @@
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 
               0 0 40px rgba(255, 0, 85, 0.15);
 } 
-
-.menucon__content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 2rem;
-  z-index: 2;
-  transform: translateY(85px); 
-  transition: transform 0.5s var(--curve);
-}
 .menuelm {
     text-decoration: none;
     color: black;
