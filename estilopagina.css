@@ -98,6 +98,16 @@
   transform: perspective(1000px) rotateX(4deg) translateY(-8px);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 
               0 0 40px rgba(255, 0, 85, 0.15);
+} 
+.menucon__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  z-index: 2;
+  transform: translateY(85px); 
+  transition: transform 0.5s var(--curve);
 }
 .menuelm {
     text-decoration: none;
@@ -107,6 +117,10 @@
     padding: 5px 0;
     transition: color 0.3s ease;
     align-items: end;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 0 10px rgba(255, 0, 85, 0.2);
+    font-weight: 700;
+    
 }
 .menuelm:hover {
     color: navy;
