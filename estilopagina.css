@@ -52,7 +52,7 @@
 .menucon {
     top: 0; 
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 60px;
     background-color: gainsoboro;
     align-items: center;
@@ -60,7 +60,6 @@
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--nav-border);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    padding: 20px;
 }
 .menu {
     max-width: auto;
