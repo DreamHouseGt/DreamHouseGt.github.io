@@ -89,7 +89,6 @@
     display: flex;
     list-style: none;
     gap: 10px;
-    justify-content: flex-end;
     font-size: 18px;
     color: navy;
     margin-right: 10px;
@@ -105,9 +104,9 @@
     transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 .btns:hover {
-    background: #185FA5;
-    color: #E6F1FB;
-    border-color: #378ADD;
+    background: gainsboro;
+    color: black;
+    border-color: gainsboro;
 }
 .btns:active {
   transform: scale(0.95);
