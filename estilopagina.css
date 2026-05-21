@@ -54,13 +54,14 @@
     left: 0;
     width: 90%;
     height: 60px;
-    background-color: gainsoboro;
+    background-color: aliceblue;
     align-items: center;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--nav-border);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     borde-radius:20px;
+    box-sizing: border-box;
 }
 .menu {
     width: 100%;
@@ -93,7 +94,7 @@
     padding: 5px 0;
     transition: color 0.3s ease;
     align-items: end;
-    box-shadow: 0 0 10px rgba(255, 0, 85, 0.2);
+    background-color: gainsboro;
     
 }
 .menuelm:hover {
