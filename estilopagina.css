@@ -84,7 +84,6 @@
     color: navy;
     margin-right: 10px;
     align-items: center;
-    margin-left: 15px;
 }
 .menuelm {
     text-decoration: none;
@@ -94,7 +93,6 @@
     padding: 5px 0;
     transition: color 0.3s ease;
     align-items: end;
-    
 }
 .menuelm:hover {
     color: navy;
