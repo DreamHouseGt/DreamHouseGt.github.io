@@ -97,29 +97,7 @@
     width: 34px;
     height: 34px;
     border-radius: 8px;
-    background: transparent;
-    border: 0.5px solid #185FA5;
     align-items: center;
-}
-.btns:active {
-  transform: scale(0.95);
-}
-.btns::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--gradient-accent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.5s var(--easing);
-  z-index: 1;
-}
-.btns:hover::before,
-.btns:active::before {
-  transform: scaleX(1);
 }
 .menucon:hover {
   transform: perspective(1000px) rotateX(4deg) translateY(-8px);
